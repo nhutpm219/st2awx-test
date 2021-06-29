@@ -1,7 +1,7 @@
 ---
 name: 02_launch_template
 pack: awx_st2_pack_02 
-runner_type: "local-shell-script"
+runner_type: "python-script"
 description: "Launch a new job based on a job template"
 enabled: true
 entry_point: "action.py"
