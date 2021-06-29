@@ -1,0 +1,11 @@
+---
+name: 02_launch_template
+runner_type: "python-script"
+description: "Launch a new job based on a job template"
+enabled: true
+entry_point: "action.py"
+parameters:
+  payload:
+    type: "object"
+    description: "Github repo change"
+    require: true

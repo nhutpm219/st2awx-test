@@ -1,0 +1,9 @@
+---
+ref: awx_st2_pack_02
+name: "02 Integrated ST2 with AWX"
+description: Trigger ST2 pack run AWX template.
+version: 1.0.0
+author: NhutPM
+email: nhut.phung@hitachivantara.com
+dependencies:
+  - https://github.com/StackStorm-Exchange/stackstorm-git.git

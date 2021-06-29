@@ -1,0 +1,12 @@
+---
+name: 02_rule
+description: Receive GitHub repo updates and trigger an action
+enabled: true
+
+trigger:
+  type: git.head_sha_monitor
+
+action:
+  ref: awx_st2_pack_02.02_launch_template
+  parameters:
+    payload: "{{ trigger }}"
