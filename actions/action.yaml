@@ -1,11 +1,13 @@
 ---
 name: 02_launch_template
-runner_type: "python-script"
+pack: awx_st2_pack_02 
+runner_type: "local-shell-script"
 description: "Launch a new job based on a job template"
 enabled: true
-entry_point: "action.py"
+entry_point: "action.sh"
 parameters:
   payload:
     type: "object"
     description: "Github repo change"
     required: true
+    position: 1
