@@ -5,5 +5,5 @@ description: Trigger ST2 pack run AWX template.
 version: 1.0.0
 author: NhutPM
 email: nhut.phung@hitachivantara.com
-dependencies:
-  - https://github.com/StackStorm-Exchange/stackstorm-git.git
+#dependencies:
+#  - https://github.com/StackStorm-Exchange/stackstorm-git.git
