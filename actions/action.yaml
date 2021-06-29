@@ -4,7 +4,7 @@ pack: awx_st2_pack_02
 runner_type: "local-shell-script"
 description: "Launch a new job based on a job template"
 enabled: true
-entry_point: "action.sh"
+entry_point: "action.py"
 parameters:
   payload:
     type: "object"
