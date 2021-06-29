@@ -6,6 +6,6 @@ from requests.auth import HTTPBasicAuth
 
 class runpyfile(Action):
     def run(self, payload):
-        res = requests.post('http://20.198.234.27/api/v2/job_templates/'+'9'+'/launch/', verify=False, auth=HTTPBasicAuth('admin','MinhNhut@#68'))
+        res = requests.post('http://20.198.234.27/api/v2/job_templates/'+'9'+'/launch/', verify=False, auth=HTTPBasicAuth('<admin>','<password>'))
         print (res.content)
         return (payload)
