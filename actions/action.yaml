@@ -8,4 +8,4 @@ parameters:
   payload:
     type: "object"
     description: "Github repo change"
-    require: true
+    required: true
